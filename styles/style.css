@@ -1,0 +1,135 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#first-pg-bg
+{
+    background-color: #FFF8F3;
+}
+/* Nav styles */
+.dark-2
+{
+    color: #474747;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 50px 100px 50px 150px;
+}
+.nav-ul
+{
+    display: flex;
+    flex-direction: row;
+}
+.nav-ul li
+{
+    list-style: none;
+    margin-right: 51px;
+}
+.nav-ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-title
+{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav .nav-title .char{
+    color: #FD6E0A;
+}
+.shared_btn
+{
+    background-color: #FD6E0A;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px; 
+    border: none;
+}
+
+.nav-content
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.banner-content .first-line
+{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.banner-content .second-line
+{
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+}
+.banner-content .paragraph1
+{
+    font-size: 18px;
+    color: #757575;
+}
+.btn1
+{
+    background-color: #FD6E0A;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+    font-weight: bold;
+    margin: 30px 30px auto auto;
+    border: none;
+}
+.btn2
+{
+    background-color:#FFFFFF;
+    border: 2px #FD6E0A solid;
+    text-align: center;
+    color:#FD6E0A;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+    font-weight: bold;
+    margin: 30px 30px auto auto;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 35px 0px 150px;
+}
+.banner-content{
+    max-width: 580px;
+    width: 100%;
+
+}
+.hardly-image
+{
+    width: 584px;
+    height: 670px;
+    
+}
+.header{
+    background-image: url("/images/developer.png"), url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
