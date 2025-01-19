@@ -319,3 +319,46 @@ footer .btn1
     padding: 18px 35px 19px 36px; 
     border: none;
 }
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px)
+{
+    .skills-container,
+     footer,
+     .about-items
+    {
+        flex-direction: column;
+        padding-left: 35px;
+    }
+    .resume-container
+    {
+        flex-direction: column;
+        margin-left:35px;
+    }
+    .resume-button
+    {
+        margin-left:-394px;
+    }
+    footer
+    {
+        padding-left: 35px;
+        width: 570px;
+    }
+    .what
+    {
+        padding-left: 40px;
+    }
+    .about
+    {
+        padding: 35px;
+        padding-left: -19px;
+        padding-right: 36px;
+    }
+    .about-items
+    {
+        margin-left: -25px;
+        gap: 10px;
+    }
+}
